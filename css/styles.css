@@ -1,17 +1,39 @@
 body {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: #222;
 }
 
 #container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 850px;
-  font-size: 15px;
+  margin: 0 auto;
+  width: 850px;
+  max-width: 960px;
+  padding: 1em;
+  overflow: auto; /* One way to make container actually contain all elements. */
+  background: #fff;
+  border: 1px solid #222;
 }
 
-.column_1 {
+/* Way to make container actually contain all elements. Makes "imaginary" block
+   after container.
+#container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+   Another way to clear floats.
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+*/
+
+#column_1 {
   float: left;
   display: inline-block;
   width: 200px;
+  max-width: 200px;
   position: relative;
   top: 15px;
 }
@@ -29,9 +51,21 @@ body {
   border-bottom-color: black;
 }
 
-.column_2 {
+#contact-info ul{
+  list-style: none;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact-info ul li {
+  margin: 5px;
+}
+
+#column_2 {
   float: right;
   width: 620px;
+  max-width: 620px;
   padding-left: 15px;
   border-left-style: solid;
   border-left-width: 1px;
@@ -49,9 +83,10 @@ h1 {
 
 img {
   border-radius: 100px;
+  border: 1px solid #222;
 }
 
-#skills, #education {
+#skills, #education{
   float: left;
   display: inline-block;
   width: 305px;
@@ -59,10 +94,6 @@ img {
 
 #skills {
   padding-left: 10px;
-}
-
-#edcation {
-
 }
 
 #experience {
