@@ -1,0 +1,47 @@
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+}
+
+.column_1 {
+  float: left;
+  display: inline-block;
+  width: 200px;
+}
+
+.column_2 {
+  float: right;
+  width: 700px;
+  padding-left: 10px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+img {
+  border-radius: 100px;
+}
+
+#skills, #education {
+  float: left;
+  display: inline-block;
+}
+
+#skills {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: -10px;
+}
+
+#edcation {
+
+}
+
+#experience {
+  clear: both;
+}
