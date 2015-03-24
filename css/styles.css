@@ -1,26 +1,38 @@
 #container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 950px;
+  max-width: 850px;
+  font-size: 15px;
 }
 
 .column_1 {
   float: left;
   display: inline-block;
   width: 200px;
+  position: relative;
+  top: 15px;
 }
 
 .column_2 {
   float: right;
-  width: 700px;
-  padding-left: 10px;
+  width: 620px;
+  padding-left: 15px;
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: black;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
+  text-align: right;
+}
+
+address {
+  text-align: right;
+}
+
+#img-container {
+
 }
 
 img {
@@ -30,12 +42,11 @@ img {
 #skills, #education {
   float: left;
   display: inline-block;
+  width: 305px;
 }
 
 #skills {
-  margin-left: 10px;
   padding-left: 10px;
-  padding-top: -10px;
 }
 
 #edcation {
