@@ -2,7 +2,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif;
-  background: #222;
+  background: url("../img/seamless_paper_texture.png");
 }
 
 #container {
@@ -40,6 +40,7 @@ body {
 
 #addr_current, #addr_permanent {
   text-align: right;
+  margin-top: 10px;
 }
 
 #addr_current p,  #addr_permanent p{
@@ -51,7 +52,7 @@ body {
   border-bottom-color: black;
 }
 
-#contact-info ul{
+#contact-info ul, #contact-info ul li {
   list-style: none;
   text-align: right;
   margin: 0px;
@@ -90,6 +91,11 @@ img {
   float: left;
   display: inline-block;
   width: 305px;
+}
+
+#skills ul, #education ul {
+  position: relative;
+  right: 25px;
 }
 
 #skills {
