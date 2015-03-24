@@ -16,6 +16,19 @@ body {
   top: 15px;
 }
 
+#addr_current, #addr_permanent {
+  text-align: right;
+}
+
+#addr_current p,  #addr_permanent p{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
 .column_2 {
   float: right;
   width: 620px;
@@ -27,10 +40,6 @@ body {
 
 h1 {
   font-size: 20px;
-  text-align: right;
-}
-
-address {
   text-align: right;
 }
 
