@@ -1,0 +1,120 @@
+body {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Times New Roman", serif;
+  background: url("../img/seamless_paper_texture.png");
+}
+
+h1 {
+  text-align: right;
+}
+
+h1, h2, h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.7em;
+}
+
+nav {
+  display: none;
+}
+
+a:link, a:visited, a:hover, a:after {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  cursor: text;
+}
+
+#container {
+  margin: 0 auto;
+  width: 850px;
+  max-width: 960px;
+  min-width: 200px;
+  padding: 1em;
+  overflow: auto; /* One way to make container actually contain all elements. */
+  background: #fff;
+  border: 1px solid #222;
+}
+
+/* Way to make container actually contain all elements. Makes "imaginary" block
+   after container.
+#container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+   Another way to clear floats.
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+*/
+
+#column_1 {
+  float: left;
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  top: 15px;
+}
+
+#addr_current, #addr_permanent {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#addr_current p,  #addr_permanent p{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+#contact-info ul, #contact-info ul li {
+  list-style: none;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact-info ul li {
+  margin: 1px;
+}
+
+#column_2 {
+  float: right;
+  width: 620px;
+  padding-left: 15px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+}
+
+img {
+  border-radius: 100px;
+  border: 1px solid #222;
+}
+
+#skills, #education{
+  float: left;
+  display: inline-block;
+  width: 305px;
+}
+
+#skills ul, #education ul {
+  position: relative;
+  right: 23px;
+}
+
+#skills {
+  padding-left: 10px;
+}
+
+#experience {
+  clear: both;
+}
