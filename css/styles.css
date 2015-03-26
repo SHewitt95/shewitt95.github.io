@@ -1,8 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:700|Muli);
+/*Ubuntu = Headers. Muli = Paragraphs */
+
 body {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: Muli, sans-serif;
   background: url("../img/seamless_paper_texture.png");
+}
+
+h1 {
+  text-align: right;
+}
+
+h1, h2, h3 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.7em;
 }
 
 #container {
@@ -72,15 +84,6 @@ body {
   border-left-color: black;
 }
 
-h1 {
-  font-size: 1.55em;
-  text-align: right;
-}
-
-#img-container {
-
-}
-
 img {
   border-radius: 100px;
   border: 1px solid #222;
@@ -94,7 +97,7 @@ img {
 
 #skills ul, #education ul {
   position: relative;
-  right: 25px;
+  right: 23px;
 }
 
 #skills {
