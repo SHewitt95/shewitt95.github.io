@@ -61,12 +61,12 @@ a:hover {
   top: 15px;
 }
 
-#addr_current, #addr_permanent {
+#addr_current {
   text-align: right;
   margin-top: 10px;
 }
 
-#addr_current p,  #addr_permanent p{
+#addr_current p {
   margin: 0px;
   padding: 0px;
   padding-top: 10px;
