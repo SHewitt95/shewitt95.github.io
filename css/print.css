@@ -11,7 +11,6 @@
 
 body {
   font-weight: 400;
-  background: url("../img/seamless_paper_texture.png");
 }
 
 h1 {
@@ -93,10 +92,10 @@ a:hover {
 
 #column_2 {
   float: right;
-  width: 620px;
-  padding-left: 15px;
+  width: 16.5cm;
+  padding-left: 0.4cm;
   border-left-style: solid;
-  border-left-width: 1px;
+  border-left-width: 0.03cm;
   border-left-color: black;
 }
 
