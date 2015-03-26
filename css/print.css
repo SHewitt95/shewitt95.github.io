@@ -1,20 +1,32 @@
-body {
-  font-size: 13px;
-  font-weight: 400;
+@page {
+  margin: 0.5in;
+}
+
+* {
+  color: black;
+  background: transparent;
+  font-size: 13pt;
   font-family: "Times New Roman", serif;
+}
+
+body {
+  font-weight: 400;
   background: url("../img/seamless_paper_texture.png");
 }
 
 h1 {
-  text-align: right;
+  text-align: right
 }
 
-h1, h2, h3 {
-  font-family: "Times New Roman", serif;
-  font-size: 1.7em;
+h1, h2 {
+  font-size: 1.9em;
 }
 
 nav {
+  display: none;
+}
+
+img {
   display: none;
 }
 
@@ -30,60 +42,53 @@ a:hover {
 
 #container {
   margin: 0 auto;
-  width: 850px;
-  max-width: 960px;
-  min-width: 200px;
+  width: 22.5cm;
+  max-width: 25.4cm;
+  min-width: 5.3cm;
   padding: 1em;
-  overflow: auto; /* One way to make container actually contain all elements. */
-  background: #fff;
-  border: 1px solid #222;
-}
-
-/* Way to make container actually contain all elements. Makes "imaginary" block
-   after container.
-#container:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-   Another way to clear floats.
-.clearfix {
   overflow: auto;
-  zoom: 1;
+  background: #fff;
 }
-*/
 
 #column_1 {
   float: left;
   display: inline-block;
-  width: 200px;
+  width: 5.3cm;
   position: relative;
-  top: 15px;
+  top: 0.1cm;
 }
 
 #addr_current {
   text-align: right;
-  margin-top: 10px;
+  margin-top: 1cm;
+  position: relative;
+  bottom: 0.6cm;
 }
 
 #addr_current p {
-  margin: 0px;
-  padding: 0px;
-  padding-top: 10px;
+  margin: 0cm;
+  padding: 0cm;
+  padding-top: 1cm;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 0.05cm;
   border-bottom-color: black;
 }
+
+#contact-info {
+  position: relative;
+  top: 0.35cm;
+}
+
 
 #contact-info ul, #contact-info ul li {
   list-style: none;
   text-align: right;
-  margin: 0px;
-  padding: 0px;
+  margin: 0cm;
+  padding: 0cm;
 }
 
 #contact-info ul li {
-  margin: 1px;
+  margin-top: 0.3cm;
 }
 
 #column_2 {
@@ -95,24 +100,19 @@ a:hover {
   border-left-color: black;
 }
 
-img {
-  border-radius: 100px;
-  border: 1px solid #222;
-}
-
 #skills, #education{
   float: left;
   display: inline-block;
-  width: 305px;
+  width: 8cm;
 }
 
 #skills ul, #education ul {
   position: relative;
-  right: 23px;
+  right: 0.6cm;
 }
 
 #skills {
-  padding-left: 10px;
+  padding-left: 0.26cm;
 }
 
 #experience {

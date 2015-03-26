@@ -8,13 +8,18 @@ body {
   background: url("../img/seamless_paper_texture.png");
 }
 
+h1, h2 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.9em;
+}
+
 h1 {
   text-align: right;
 }
 
-h1, h2, h3 {
-  font-family: Ubuntu, sans-serif;
-  font-size: 1.7em;
+img {
+  border-radius: 100px;
+  border: 1px solid #222;
 }
 
 #container {
@@ -27,20 +32,6 @@ h1, h2, h3 {
   background: #fff;
   border: 1px solid #222;
 }
-
-/* Way to make container actually contain all elements. Makes "imaginary" block
-   after container.
-#container:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-   Another way to clear floats.
-.clearfix {
-  overflow: auto;
-  zoom: 1;
-}
-*/
 
 #column_1 {
   float: left;
@@ -82,11 +73,6 @@ h1, h2, h3 {
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: black;
-}
-
-img {
-  border-radius: 100px;
-  border: 1px solid #222;
 }
 
 #skills, #education{
