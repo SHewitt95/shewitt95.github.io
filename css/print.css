@@ -31,12 +31,7 @@ img {
 
 a:link, a:visited, a:hover, a:after {
   text-decoration: none;
-  color: black;
   font-weight: bold;
-}
-
-a:hover {
-  cursor: text;
 }
 
 #container {
