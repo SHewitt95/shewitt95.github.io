@@ -8,6 +8,7 @@ body {
 }
 
 #container {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 55%;
@@ -60,5 +61,8 @@ main {
   line-height: 0;
 }
 
-#icon-credit {
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.5em;
 }
