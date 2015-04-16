@@ -43,6 +43,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 main {
+  display: block;
   position: relative;
   top: 3em;
   text-align: center;
@@ -60,5 +61,4 @@ main {
 }
 
 #icon-credit {
-  
 }
