@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:700|Muli);
-/*Ubuntu = Headers. Muli = Paragraphs */
+@import url(http://fonts.googleapis.com/css?family=Muli|Crimson+Text:700italic);
+/*Crimson Text = Headers. Muli = Paragraphs */
 
 body {
   background: url("../img/shattered.png");
@@ -12,13 +12,12 @@ body {
   margin-right: auto;
   width: 55%;
   min-width: 320px;
-  overflow: auto;
+  overflow: visible;
 }
 
 nav {
   text-align: center;
   border-radius: 1em;
-  background: #D5D6D6; /* Darkest shade of gray from background */
   border: 1px solid;
 }
 
@@ -30,14 +29,32 @@ ul li {
   list-style: none;
   display: inline;
   margin: 0 2em;
-  padding-top: 0.15em;
-  padding-bottom: 0.15em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
+}
+
+ul li:hover {
+  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+main {
+  position: relative;
+  top: 3em;
+  text-align: center;
+}
+
 #name {
-  font-family: Ubuntu, sans-serif;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 7em;
+  font-style: italic;
+  line-height: 0;
+}
+
+#slogan {
+  line-height: 0;
 }
