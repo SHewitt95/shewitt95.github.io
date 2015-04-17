@@ -43,11 +43,15 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+a p {
+  line-height: 0;
+  margin-bottom: 4em;
+}
+
 main {
   display: block;
   position: relative;
   top: 3em;
-  text-align: center;
 }
 
 #name {
@@ -55,10 +59,20 @@ main {
   font-size: 7em;
   font-style: italic;
   line-height: 0;
+  text-align: center;
 }
 
 #slogan {
   line-height: 0;
+  text-align: center;
+}
+
+#icons {
+  text-align: center;
+}
+
+.social-media {
+  margin: 1.5em;
 }
 
 footer {
