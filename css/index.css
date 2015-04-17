@@ -54,6 +54,13 @@ main {
   top: 3em;
 }
 
+#headshot {
+  float: left;
+  border: 1px solid;
+  border-radius: 500px;
+  margin-right: 1.05em;
+}
+
 #name {
   font-family: "Crimson Text", sans-serif;
   font-size: 7em;
