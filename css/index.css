@@ -20,6 +20,8 @@ nav {
   text-align: center;
   border-radius: 1em;
   border: 1px solid;
+  padding: 0em;
+  background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
 }
 
 ul {
@@ -30,22 +32,39 @@ ul li {
   list-style: none;
   display: inline;
   margin: 0 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
-}
-
-ul li:hover {
-  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  color: black;
+}
+
+ul li a {
+  display: inline-block;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  margin: 0px;
+}
+
+ul li a:hover {
+  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
 }
 
 a p {
   line-height: 0;
   margin-bottom: 4em;
+}
+
+h1 {
+  font-family: "Crimson Text", sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  margin-bottom: 0em;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3.5em;
 }
 
 main {
@@ -67,19 +86,22 @@ main {
   font-style: italic;
   line-height: 0;
   text-align: center;
+  margin-bottom: 0.5em;
 }
 
-#slogan {
-  line-height: 0;
+.slogan {
   text-align: center;
+  font-size: 1.5em;
+  line-height: 0.75;
 }
 
 #icons {
   text-align: center;
 }
 
-.social-media {
-  margin: 1.5em;
+.fa {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 footer {
