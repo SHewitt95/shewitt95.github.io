@@ -26,9 +26,6 @@ nav {
   background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
 }
 
-#current-page {
-  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
-}
 
 ul {
   padding: 0;
@@ -38,6 +35,11 @@ ul li {
   list-style: none;
   display: inline;
   margin: 0 2em;
+}
+
+#current-page {
+  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
+  padding: 0.5em;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -58,7 +60,7 @@ ul li a {
 
 ul li a:hover {
   background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
-  padding: 1em;
+  padding: 0.5em;
 }
 
 a p {
@@ -87,7 +89,7 @@ main {
 #headshot {
   float: left;
   border: 1px solid;
-  border-radius: 500px;
+  border-radius: 100px;
   margin-right: 1.05em;
 }
 
