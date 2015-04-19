@@ -39,6 +39,10 @@ a:link, a:visited, a:hover, a:active {
   color: black;
 }
 
+main a:link {
+  text-decoration: underline;
+}
+
 ul li a {
   display: inline-block;
   padding-bottom: 0.5em;
