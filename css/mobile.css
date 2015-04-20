@@ -1,0 +1,131 @@
+@media (max-width: 320px) {
+  body {
+    background: url("../img/shattered.png");
+    font-family: Muli, sans-serif;
+    font-size: 16px;
+  }
+
+  #container {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    min-width: 320px;
+    overflow: visible;
+  }
+
+  nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0em;
+    background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
+  }
+
+
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 2em;
+  }
+
+  #current-page {
+    background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
+    padding: 0.5em;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  main a:link {
+    text-decoration: underline;
+  }
+
+  ul li a {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin: 0em;
+  }
+
+  ul li a:hover {
+    background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
+    padding: 0.5em;
+  }
+
+  a p {
+    line-height: 0;
+    margin-bottom: 4em;
+  }
+
+  h1 {
+    font-family: "Crimson Text", sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    margin-bottom: 0em;
+  }
+
+  main h1 {
+    text-align: center;
+    font-size: 3.5em;
+  }
+
+  main {
+    display: block;
+    position: relative;
+    top: 3em;
+  }
+
+  #headshot {
+    float: left;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-right: 1.05em;
+  }
+
+  #homepage {
+    display: block;
+    margin-top: 25%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    font-family: "Crimson Text", sans-serif;
+    display: inline-block;
+    font-size: 6.5em;
+    font-style: italic;
+    line-height: 0;
+    margin-bottom: 0.25em;
+    margin-left: 0.25em;
+  }
+
+  .slogan {
+    font-size: 1.5em;
+    line-height: 0.75;
+  }
+
+  #icons {
+    text-align: center;
+  }
+
+  .fa {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.5em;
+  }
+
+}
