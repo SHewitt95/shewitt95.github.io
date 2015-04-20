@@ -96,19 +96,21 @@ main {
 #homepage {
   display: block;
   margin-top: 25%;
+  width: 100%;
+  text-align: center;
 }
 
-#name {
+.name {
   font-family: "Crimson Text", sans-serif;
-  font-size: 7em;
+  display: inline-block;
+  font-size: 6.5em;
   font-style: italic;
   line-height: 0;
-  text-align: center;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
+  margin-left: 0.25em;
 }
 
 .slogan {
-  text-align: center;
   font-size: 1.5em;
   line-height: 0.75;
 }
