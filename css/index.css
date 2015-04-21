@@ -11,7 +11,7 @@ body {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 55%;
   overflow: visible;
 }
 
@@ -23,6 +23,13 @@ nav {
   width: 100%;
   padding: 0em;
   background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
+}
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
 }
 
 
@@ -52,14 +59,15 @@ main a:link {
 
 ul li a {
   display: inline-block;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+  /*padding-bottom: 0.5em;
+  padding-top: 0.5em;*/
+  padding: 0.5em;
   margin: 0em;
 }
 
 ul li a:hover {
   background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
-  padding: 0.5em;
+  /*padding: 0.5em;*/
 }
 
 a p {
