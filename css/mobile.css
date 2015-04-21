@@ -9,6 +9,7 @@
   #container {
     margin: 0;
     margin-top: 5%;
+    width: 100%;
     max-width: 360px;
   }
 
