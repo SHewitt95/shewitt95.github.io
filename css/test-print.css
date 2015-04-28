@@ -86,4 +86,8 @@ h2 {
 .job {
   font-weight: bold;
 }
+
+#resume .fa {
+  display: none;
+}
 /************************/
