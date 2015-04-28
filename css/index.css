@@ -7,7 +7,7 @@ body {
   font-size: 16px;
 }
 
-#container {
+#webpage #container {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ body {
   overflow: visible;
 }
 
-nav {
+#webpage nav {
   text-align: center;
   position: fixed;
   top: 0;
@@ -25,39 +25,38 @@ nav {
   background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
 }
 
-#menu-icon {
+#webpage #menu-icon {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+  background: #4C8FEC;
 }
 
-
-ul {
+#webpage ul {
   padding: 0;
 }
 
-ul li {
+#webpage ul li {
   list-style: none;
   display: inline;
   margin: 0 2em;
 }
 
-#current-page {
+#webpage #current-page {
   background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
   padding: 0.5em;
 }
 
-a:link, a:visited, a:hover, a:active {
+#webpage a:link, #webpage a:visited, #webpage a:hover, #webpage a:active {
   text-decoration: none;
   color: black;
 }
 
-main a:link {
+#webpage main a:link {
   text-decoration: underline;
 }
 
-ul li a {
+#webpage ul li a {
   display: inline-block;
   /*padding-bottom: 0.5em;
   padding-top: 0.5em;*/
@@ -65,49 +64,49 @@ ul li a {
   margin: 0em;
 }
 
-ul li a:hover {
+#webpage ul li a:hover {
   background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
   /*padding: 0.5em;*/
 }
 
-a p {
+#webpage a p {
   line-height: 0;
   margin-bottom: 4em;
 }
 
-h1 {
+#webpage h1 {
   font-family: "Crimson Text", sans-serif;
   font-style: italic;
   font-size: 2em;
   margin-bottom: 0em;
 }
 
-main h1 {
+#webpage main h1 {
   text-align: center;
   font-size: 3.5em;
 }
 
-main {
+#webpage main {
   display: block;
   position: relative;
   top: 3em;
 }
 
-#headshot {
+#webpage #headshot {
   float: left;
   border: 1px solid;
   border-radius: 100px;
   margin-right: 1.05em;
 }
 
-#homepage {
+#webpage #homepage {
   display: block;
   margin-top: 25%;
   width: 100%;
   text-align: center;
 }
 
-.name {
+#webpage .name {
   font-family: "Crimson Text", sans-serif;
   display: inline-block;
   font-size: 6.5em;
@@ -117,22 +116,103 @@ main {
   margin-left: 0.25em;
 }
 
-.slogan {
+#webpage .slogan {
   font-size: 1.5em;
   line-height: 0.75;
 }
 
-#icons {
+#webpage #icons {
   text-align: center;
 }
 
-.fa {
+#webpage .fa {
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  font-size: 0.5em;
+/***********Resume***********/
+#resume #resume-container {
+  width: 960px;
+  overflow: auto;
+  display: block;
+  padding: 1.25em;
+  background: white;
+  max-width: 960px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
 }
+
+#resume a:link, #resume a:visited, #resume a:hover, #resume a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+#resume #top-section {
+  padding: 0em;
+  position: relative;
+  bottom: 75px;
+  border-bottom: 1px solid black;
+}
+
+#resume #top-section h1 {
+  font-family: "Crimson Text", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-size: 7.5em;
+  margin-bottom: 0em;
+  display: inline-block;
+}
+
+#resume #top-section #contact-info {
+  display: inline-block;
+  position: relative;
+  top: 77px;
+  right: 175px;
+  float: right;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.05em;
+}
+
+#resume #top-section #contact-info li {
+  list-style: none;
+}
+
+#resume #column1, #resume #column2 {
+  position: relative;
+  bottom: 75px;
+}
+
+#resume #column1 {
+  float: left;
+  width: 215px;
+  padding-left: 0em;
+}
+
+#resume #column1 ul {
+  padding-left: 1.5em;
+}
+
+#resume #column2 {
+  float: right;
+  width: 650px;
+  border-left: 1px solid black;
+  padding: 1.25em;
+  padding-bottom: 2.6em;
+}
+
+#resume #column2 #experience {
+  position: relative;
+  bottom: 21px;
+}
+
+#resume .job {
+  font-weight: bold;
+}
+
+#resume .fa {
+  display: none;
+}
+/************************/
