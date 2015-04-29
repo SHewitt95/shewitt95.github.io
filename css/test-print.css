@@ -5,7 +5,7 @@
 * {
   color: black;
   background: transparent;
-  font-size: 13pt;
+  font-size: 14pt;
   font-family: "Times New Roman", serif;
 }
 
@@ -26,7 +26,7 @@ a:link, a:visited, a:hover, a:after {
   padding: 0em;
   position: relative;
   bottom: 0.78in;
-  border-bottom: 1px solid black;
+  border-bottom: 0.025in solid black;
 }
 
 #top-section h1 {
