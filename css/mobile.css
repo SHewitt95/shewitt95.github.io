@@ -277,6 +277,10 @@
     padding-bottom: 1em;
   }
 
+  #resume #resume-container #column2 #experience article {
+    margin-bottom: 2.5em;
+  }
+
   #resume #resume-container #column2 #experience ul {
     padding-left: 1em;
   }
