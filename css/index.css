@@ -56,6 +56,10 @@ body {
   text-decoration: underline;
 }
 
+#webpage main #home-icons {
+  display: none;
+}
+
 #webpage ul li a {
   display: inline-block;
   /*padding-bottom: 0.5em;

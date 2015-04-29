@@ -51,6 +51,10 @@
     text-decoration: underline;
   }
 
+  #webpage main #home-icons {
+    display: block;
+  }
+
   #webpage ul li a:hover {
     background: none;
     padding: 0.5em;
@@ -148,22 +152,49 @@
   }
 
   /****************Resume*******************/
-  #resume #resume-container {
-    width: 320px;
+  /*#resume #resume-container {
+    width: 100%;
     overflow: visible;
     display: block;
     padding: 1em;
     background: white;
     max-width: 320px;
-    min-width: 320px;
+    min-width: 0px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
+  }*/
+
+  /*#resume #resume-container {
+    position: relative;
+    bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 25%;
+    padding: 1.5em;
+    width: 320px;
+    max-width: 320px;
+    min-width: 100px;
+    border: 1px solid black;
+  }*/
+  #resume {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
 
-  #resume #top-section, #resume #column1, #resume #column2, #resume #contact-info {
+  #resume #resume-container {
+    border: none;
     display: block;
-    width: 100%;
+    position: relative;
+    bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 320px;
+    max-width: 320px;
   }
 
   #resume a:link, #resume a:visited, #resume a:hover, #resume a:active {
@@ -171,12 +202,14 @@
     color: black;
   }
 
-  #resume #top-section {
+  #resume #resume-container #top-section {
     padding: 0em;
+    width: 100%;
+    margin-right: 0px;
     border-bottom: none;
   }
 
-  #resume #top-section h1 {
+  #resume #resume-container #top-section h1 {
     font-family: "Crimson Text", sans-serif;
     position: relative;
     top: 1em;
@@ -186,7 +219,7 @@
     display: block;
   }
 
-  #resume #top-section #contact-info {
+  #resume #resume-container #top-section #contact-info {
     display: inline-block;
     position: relative;
     top: 1.75em;
@@ -195,50 +228,64 @@
     margin-top: 10px;
   }
 
-  #resume #top-section #contact-info li {
+  #resume #resume-container #top-section #contact-info li {
     display: none;
   }
 
-  #resume #top-section #contact-info #icons {
-    width: 20em;
+  #resume #resume-container #top-section #contact-info #icons {
+    width: 15em;
   }
 
-  #resume #top-section #contact-info #icons a .fa {
+  #resume #resume-container #top-section #contact-info #icons a .fa {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 0.75em;
   }
 
-  #resume #column1, #resume #column2 {
+  #resume #resume-container #column1, #resume #resume-container #column2 {
     position: relative;
     bottom: 70px;
   }
 
-  #resume #column1 {
+  #resume #resume-container #column1 {
     float: none;
     padding-left: 0em;
   }
 
-  #resume #column1 ul {
+  #resume #resume-container #column1 ul {
     padding-left: 0em;
   }
 
-  #resume #column2 {
+  #resume #resume-container #column1 #skills {
+    width: 100%;
+  }
+
+  #resume #resume-container #column1 #skills ul {
+    padding-left: 1em;
+  }
+
+  #resume #resume-container #column1 #education ul {
+    padding-left: 1em;
+    margin-bottom: 2.5em;
+  }
+
+  #resume #resume-container #column2 {
     float: none;
     width: 95%;
     border: none;
+    margin: 0px;
     padding: 0em;
-    padding-bottom: 2.6em;
+    padding-bottom: 1em;
   }
 
-  #resume #column2 #experience {
-    position: static;
+  #resume #resume-container #column2 #experience ul {
+    padding-left: 1em;
   }
 
-  #resume .job {
+  #resume #resume-container .job {
     font-weight: bold;
   }
 
-  #resume .fa {
+  #resume #resume-container .fa {
     display: inline-block;
   }
   /*****************************************/
