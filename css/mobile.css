@@ -64,6 +64,7 @@
   #webpage #menu-icon {
     display:inline-block;
     float: left;
+    font-size: 1.55em;
   }
 
   #webpage nav ul, #webpage nav:active ul {
