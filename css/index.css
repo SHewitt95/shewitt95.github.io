@@ -2,7 +2,7 @@
 /*Crimson Text = Headers. Muli = Paragraphs */
 
 body {
-  background: url("../img/shattered.png");
+  background: url("../img/straws_@2X.png");
   font-family: Muli, sans-serif;
   font-size: 16px;
 }
@@ -22,7 +22,7 @@ body {
   z-index: 1;
   width: 100%;
   padding: 0em;
-  background: #D5D6D6; /* #D5D6D6 = Darkest shade of gray from background */
+  background: url("../img/straws_@2X.png"); /* #D5D6D6 = Darkest shade of gray from background */
 }
 
 #webpage #menu-icon {
@@ -43,7 +43,7 @@ body {
 }
 
 #webpage #current-page {
-  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
+  background: white; /*#DCDDDD = Lightest shade of gray from background. */
   padding: 0.5em;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 #webpage ul li a:hover {
-  background: #DCDDDD; /*#DCDDDD = Lightest shade of gray from background. */
+  background: white; /*#DCDDDD = Lightest shade of gray from background. */
   /*padding: 0.5em;*/
 }
 
