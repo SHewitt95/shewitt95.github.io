@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Niconne|Josefin+Slab);
+
+#oreo_popcorn * {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body#oreo_popcorn {
+  background-color: #D3D3D3; /* Light gray */
+}
+
+#oreo_popcorn a:link, #oreo_popcorn a:visited, #oreo_popcorn a:hover, #oreo_popcorn a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#oreo_popcorn a:hover {
+  text-decoration: underline;
+}
+
+#oreo_popcorn .home {
+  text-align: right;
+  margin-right: 1em;
+}
+
+#oreo_popcorn p, #oreo_popcorn ul li {
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 1.05em;
+  line-height: 1.25;
+}
+
+#oreo_popcorn .container {
+  width: 960px;
+  display: block;
+  margin: 1em auto;
+  background-color: white;
+}
+
+#oreo_popcorn header {
+  width: 100%;
+  background-color: #4CC5F2; /* Blue color from Oreo website */
+}
+
+#oreo_popcorn header h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 0.1em;
+  text-align: center;
+  font-family: "Niconne", sans-serif;
+}
+
+#oreo_popcorn .intro {
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+#oreo_popcorn .intro ul {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#oreo_popcorn .intro ul li {
+  font-size: 1.5em;
+}
+
+#oreo_popcorn .slider-box {
+  width: 90%;
+  /*border: 1px solid black;*/
+
+  display: block;
+  margin: 1em auto;
+  overflow: visible;
+}
+
+#oreo_popcorn .stage {
+  width: 80%;
+  height: 500px;
+  display: inline-block;
+
+  float: left;
+}
+
+#oreo_popcorn .oreo {
+  width: 75%;
+  height: 90%;
+  border: 15px solid black;
+  border-radius: 100%;
+  position: relative;
+  display: block;
+  margin: 1em auto;
+}
+
+#oreo_popcorn .oreo p {
+  font-size: 2em;
+}
+
+#oreo_popcorn .img-box {
+  position: absolute;
+  top: 20px;
+  left: 125px;
+  display: block;
+  margin: 1em auto;
+}
+
+#oreo_popcorn .img-box img {
+  width: 275px;
+  border-radius: 15%;
+}
+
+#oreo_popcorn .text-box {
+  width: 300px;
+  position: absolute;
+  top: 250px;
+  left: 125px;
+}
+
+#oreo_popcorn .text-box p {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+#oreo_popcorn .img-bar {
+  width: 20%;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  background-color: #4CC5F2;
+}
+
+#oreo_popcorn .step {
+  position: relative;
+  display: block;
+  margin: 1em;
+  width: 80%;
+  height: 100px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+#oreo_popcorn .step:hover {
+  cursor: pointer;
+}
+
+#oreo_popcorn .step p {
+  color: white;
+  position: absolute;
+  font-size: 2em;
+  top: 30px;
+  left: 30px;
+}
+
+#oreo_popcorn .clear { clear: both; }

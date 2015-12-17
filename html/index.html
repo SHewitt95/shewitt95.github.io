@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body id="homepage">
+  <div class="container">
+    <div id="left-box">
+      <h1 id="my-name">Sherman Hewitt</h1>
+      <p id="my-title"><span id="programmer-button">Programmer</span> &diams; <span id="journalist-button">Journalist</span></p>
+      <nav>
+        <ul>
+          <li><a href="mailto:hewitt.sherman@gmail.com">Email</a></li>
+          <li><a href="https://github.com/SHewitt95">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/shermanhewitt">LinkedIn</a></li>
+          <li><a href="Sherman_Hewitt_Resume.pdf">R&eacute;sum&eacute;</a></li>
+          <li><a href="https://twitter.com/Sherman_Hewitt">Twitter</a></li>
+        </ul>
+      </nav>
+    </div> <!-- End left-box -->
+
+    <div id="right-box">
+      <div id="item-box">
+        <h2>Programmer</h2>
+
+        <a target="_blank" href="wall_of_color.html">
+          <div class="item">
+            <div class="item-desc">Wall of Color</div>
+            <div class="item-desc">Javascript and JQuery dynamically changing element colors.</div>
+            <img src="../img/homepage/wall_of_color.JPG" alt="Wall of color page" />
+          </div>
+        </a>
+
+        <a target="_blank" href="oreo_popcorn.html">
+          <div class="item">
+            <div class="item-desc">Oreo Popcorn recipe</div>
+            <div class="item-desc">Javascript and JQuery iterating through recipe steps.</div>
+            <img src="../img/homepage/oreo_popcorn.JPG" alt="Oreo popcorn page" />
+          </div>
+        </a>
+
+        <a target="_blank" href="http://shewitt.me/rock-paper-scissors/">
+          <div class="item">
+            <div class="item-desc">Rock, Paper, Scissors</div>
+            <div class="item-desc">Javascript, JQuery and flip.js implementing RPS logic.</div>
+            <img src="../img/homepage/rock-paper-scissors.PNG"/>
+          </div>
+        </a>
+
+      </div> <!-- End item-box -->
+
+
+        <!--a href="http://shewitt.me/rock-paper-scissors/">
+          <div class="item">
+            <img src="../img/homepage/rock-paper-scissors.PNG"/>
+            <div class="item-desc">
+              <p>Wall of Color</p>
+              <p>Personal Project</p>
+            </div>
+          </div>
+        </a-->
+
+        <div id="written-work">
+          <h2>Journalist</h2>
+          <div id="divRss"></div>
+        </div> <!-- End written-work -->
+        <br class="clear" />
+      </div> <!-- End right-box -->
+
+    </div> <!-- End container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="../js/homepage/index.js"></script>
+  <script src="../js/homepage/FeedEk.js"></script>
+</body>
+</html>
