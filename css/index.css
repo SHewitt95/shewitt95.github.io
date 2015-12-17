@@ -159,3 +159,67 @@ body#homepage {
 ul {
   list-style: none;
 }
+
+/************************************ Mobile CSS ************************************/
+
+/* Media Query @ 860px width*/
+@media (max-width: 860px) {
+
+  #homepage .container {
+    width: 100%;
+  }
+
+  #homepage #right-box {
+    float: none;
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  #homepage #right-box h2 {
+    text-align: center;
+    margin-top: 0.5em;;
+    font-size: 2em;
+  }
+
+  #homepage #right-box #written-work p {
+    font-size: 1.5em;
+  }
+
+  #homepage #right-box #written-work {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #homepage .item {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    width: 280px;
+    height: 280px;
+  }
+
+  #homepage #left-box {
+    float: none;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #homepage #left-box nav ul li {
+    display: inline-block;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    font-size: 1.5em;
+  }
+
+  #homepage #programmer-button, #homepage #journalist-button {
+    font-size: 1.5em;
+  }
+
+}
