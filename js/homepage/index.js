@@ -9,6 +9,14 @@ function initiatePage() {
   var written = $('#written-work'),
       items = $('#item-box');
 
+  // Grabs year in copyright notice
+  var year = $("#year");
+  var d = new Date();
+
+  year.text(d.getFullYear());
+
+
+
   // Hides code work section.
   written.hide();
 

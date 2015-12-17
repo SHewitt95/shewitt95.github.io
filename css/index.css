@@ -12,6 +12,7 @@ body#homepage {
   display: block;
   margin: 1em auto;
   position: relative;
+  min-height: 100%;
 }
 
 #homepage #left-box {
@@ -91,6 +92,10 @@ body#homepage {
   line-height: 1.5;
 }
 
+#homepage #right-box #written-work #more-stories {
+  text-decoration: underline;
+}
+
 #homepage .item {
   position: relative;
   display: inline-block;
@@ -160,6 +165,13 @@ ul {
   list-style: none;
 }
 
+footer {
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  bottom: 0px;
+  height: 60px;
+}
+
 /************************************ Mobile CSS ************************************/
 
 /* Media Query @ 860px width*/
@@ -220,6 +232,11 @@ ul {
 
   #homepage #programmer-button, #homepage #journalist-button {
     font-size: 1.5em;
+  }
+
+  #homepage #right-box #written-work .for-more {
+    font-size: 1em;
+    margin-bottom: 1em;
   }
 
 }
